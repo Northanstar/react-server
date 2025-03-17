@@ -15,6 +15,7 @@
     padding: 20px;
   }
   header .navbar {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;

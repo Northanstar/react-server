@@ -4,9 +4,11 @@ import Navbar from './Component/Navbar';
 import {Routes, Route } from 'react-router-dom';
 import Hero from './Pages/Hero';
 import About from './About';
-import Product from './Product';
-import Testimonial from './Testimonial';
-import Contacts from './Contacts';
+import Product from './Pages/Product';
+import Testimonial from './Pages/Testimonial';
+import Contacts from './Pages/Contacts';
+import SignUp from './Pages/Sign_up';
+import SignIn from './Pages/Sign_in';
 
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
         <Route path="/products" element={<Product/>} />
         <Route path="/testimonial" element={<Testimonial/>} />
         <Route path="/contact" element={<Contacts/>} />
+        <Route path="/sign_up" element={<SignUp/>} />
+        <Route path="/sign_in" element={<SignIn/>} />
       </Routes>
 
       
