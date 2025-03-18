@@ -18,7 +18,7 @@ function Product() {
 
             <Link to="#" class="card-item">
                 <img src="src/assets/coffee-hero-bg.jpg" alt="card image"/><br/>
-                <span class="designer">Designer</span>
+                <span class="designer">coffee</span>
                 <h3>A "designer" is design expert</h3>
                 <div class="arrow">
                     <i class="fas fa-arrow-right card-icon"></i>
